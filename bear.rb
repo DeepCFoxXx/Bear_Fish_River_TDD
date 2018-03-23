@@ -11,4 +11,9 @@ class Bear
     @food.size
   end
 
+  def take_fish_from_river(river)
+    fish = river.get_fish()
+    @food << fish if !fish.nil?
+  end
+
 end
