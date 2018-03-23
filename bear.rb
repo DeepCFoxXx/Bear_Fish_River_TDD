@@ -7,4 +7,8 @@ class Bear
     @food = []
   end
 
-end 
+  def food_count
+    @food.size
+  end
+
+end

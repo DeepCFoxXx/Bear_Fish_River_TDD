@@ -21,4 +21,8 @@ class TestBear < Minitest::Test
     assert_equal("Polar", @bear.type)
   end
 
+  def test_food_starts_empty
+    assert_equal(0,@bear.food_count)
+  end
+
 end
