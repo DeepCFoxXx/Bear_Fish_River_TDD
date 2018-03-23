@@ -8,4 +8,8 @@ class River
     @fishes.size
   end
 
+  def get_fish
+    @fishes.pop
+  end
+
 end
