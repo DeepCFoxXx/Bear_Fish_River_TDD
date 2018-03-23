@@ -17,4 +17,8 @@ class TestBear < Minitest::Test
     assert_equal("Rolo", @bear.name)
   end
 
+  def test_bear_type
+    assert_equal("Polar", @bear.type)
+  end
+
 end
